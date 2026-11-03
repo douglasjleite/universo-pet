@@ -14,4 +14,4 @@ Projeto desenvolvido para a Fase 1 da disciplina de Fundamentos de Sistemas Web 
 ## Acesso ao Projeto
 
 O site está publicado via GitHub Pages e pode ser acessado no link:
-https://douglasjleite.github.io/universo-pet/
+[Acessar o projeto Universo Pet no GitHub Pages](https://douglasjleite.github.io/universo-pet/)
