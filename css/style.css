@@ -1,0 +1,80 @@
+/* Paleta padrão */
+:root {
+  --bg-pagina: #f8f9fa;
+  --bg-superficie: #ffffff;
+  --texto-principal: #1b222c;
+  --texto-secundario: #445060;
+  --borda-suave: #ced4da;
+  --destaque: #198754;
+  --foco-acessivel: #0d6efd;
+}
+
+body {
+  background-color: var(--bg-pagina);
+  color: var(--texto-principal);
+}
+
+.site-header,
+.site-footer {
+  background-color: var(--bg-superficie);
+}
+
+.card {
+  background-color: var(--bg-superficie);
+  border-color: var(--borda-suave);
+}
+
+/* Imagens do carrossel e produtos */
+.carousel-img {
+  height: 360px;
+  object-fit: cover;
+  filter: brightness(0.65);
+}
+
+.carousel-legenda {
+  background-color: rgba(16, 22, 30, 0.82);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+}
+
+.produto-img {
+  max-height: 180px;
+  object-fit: contain;
+}
+
+/* Foco visível claro na navegação por teclado */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--foco-acessivel) !important;
+  outline-offset: 2px;
+}
+
+/* Modo Alto Contraste ativado via botão no cabeçalho */
+body.alto-contraste,
+body.alto-contraste .site-header,
+body.alto-contraste .site-footer,
+body.alto-contraste .card,
+body.alto-contraste .modal-content,
+body.alto-contraste fieldset {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-color: #ffff00 !important;
+}
+
+body.alto-contraste .nav-link,
+body.alto-contraste footer a,
+body.alto-contraste .form-label,
+body.alto-contraste .form-check-label {
+  color: #ffff00 !important;
+}
+
+body.alto-contraste .form-control {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffff00 !important;
+}
+
+body.alto-contraste .btn {
+  border: 2px solid #ffff00 !important;
+}
