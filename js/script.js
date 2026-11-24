@@ -192,8 +192,8 @@ function configurarFormularioAgendamento() {
     resultadoBox.innerHTML = `
             <h3 class="h5 alert-heading">Agendamento Registrado com Sucesso!</h3>
             <p class="mb-1"><strong>Cliente:</strong> ${clienteNome} (CPF: ${clienteCpf} | Sexo: ${clienteSexo})</p>
-            <p class="mb-1"><strong>Contato e Endereço:</strong> ${clienteTelefone} | ${clienteEmail} — ${clienteEndereco}</p>
-            <p class="mb-1"><strong>Pet:</strong> ${petNome} — Raça: ${petRaca}, ${petIdade} ano(s)</p>
+            <p class="mb-1"><strong>Contato e Endereço:</strong> ${clienteTelefone} | ${clienteEmail} - ${clienteEndereco}</p>
+            <p class="mb-1"><strong>Pet:</strong> ${petNome} - Raça: ${petRaca}, ${petIdade} ano(s)</p>
             <p class="mb-1"><strong>Serviços:</strong> ${servicosSelecionados.join(" e ")} | <strong>Modalidade:</strong> ${modalidade}</p>
             <p class="mb-1"><strong>Data e Horário:</strong> ${dataBR} às ${horaAgendamento}</p>
             <p class="mb-0"><strong>Observações:</strong> ${observacoes}</p>
